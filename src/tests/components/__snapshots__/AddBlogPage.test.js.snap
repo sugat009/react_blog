@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render AddBlogPage correctly 1`] = `
+<div>
+  <BlogForm
+    onSubmit={[Function]}
+  />
+</div>
+`;

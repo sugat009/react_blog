@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render BlogListItem correctly 1`] = `
+<div>
+  <Link
+    replace={false}
+    to="/edit/2"
+  >
+    <h3>
+      ethical hacking
+    </h3>
+    <p>
+      fraand ill show u some ethical hacking
+       - 
+      December 27th, 1969
+    </p>
+  </Link>
+</div>
+`;

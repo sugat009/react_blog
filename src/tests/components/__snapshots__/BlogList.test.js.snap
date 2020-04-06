@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render BlogList with blogs 1`] = `
+<div>
+  <p>
+    Blog List
+  </p>
+  <BlogListItem
+    content="content of live your life"
+    createdAt={432000000}
+    id="1"
+    key="1"
+    title="live your life"
+  />
+  <BlogListItem
+    content="fraand ill show u some ethical hacking"
+    createdAt={-432000000}
+    id="2"
+    key="2"
+    title="ethical hacking"
+  />
+  <BlogListItem
+    content="Learn everything from scratch in C#"
+    createdAt={0}
+    id="3"
+    key="3"
+    title="C# MasterClass"
+  />
+</div>
+`;
+
+exports[`should render BlogList with no blogs 1`] = `
+<div>
+  <p>
+    Blog List
+  </p>
+  <p>
+    No Blogs Yet
+  </p>
+</div>
+`;

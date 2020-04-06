@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render BlogForm correctly 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Blog Title"
+      type="text"
+      value=""
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Blog Content"
+      value=""
+    />
+    <button>
+      Save Blog
+    </button>
+  </form>
+</div>
+`;
+
+exports[`should render BlogForm with data 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Blog Title"
+      type="text"
+      value="C# MasterClass"
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Blog Content"
+      value="Learn everything from scratch in C#"
+    />
+    <button>
+      Save Blog
+    </button>
+  </form>
+</div>
+`;
+
+exports[`should render error 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Blog Title"
+      type="text"
+      value=""
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Blog Content"
+      value=""
+    />
+    <button>
+      Save Blog
+    </button>
+  </form>
+</div>
+`;
+
+exports[`should render error 2`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <p>
+      Both title and content are required!
+    </p>
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Blog Title"
+      type="text"
+      value=""
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Blog Content"
+      value=""
+    />
+    <button>
+      Save Blog
+    </button>
+  </form>
+</div>
+`;
